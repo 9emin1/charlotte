@@ -13,9 +13,9 @@
 
 ## antiscan.me
 
-![alt_text](https://github.com/9emin1/charlotte/blob/master/0-detection-charlotte.png "Pwn!")
+![alt_text](0-detection-charlotte.png "Pwn!")
 
 ## usage
 
-![alt_text](https://github.com/9emin1/charlotte/blob/master/demo-poc.gif "Pwn!")
+![alt_text](demo-poc.gif "Pwn!")
 
