@@ -17,5 +17,9 @@
 
 ## usage
 
+git clone the repository, generate your shellcode file with the naming beacon.bin, and run charlotte.py
+
+tested with msfvenom -p (shown in the .gif POC below) and also cobalt strike raw format payload
+
 ![alt_text](demo-poc.gif "Pwn!")
 
