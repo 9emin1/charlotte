@@ -30,3 +30,13 @@ example:
 
 ![alt_text](demo-poc.gif "Pwn!")
 
+## update v1.1 
+
+17/05/21:
+
+apparently Microsoft Windows Defender was able to detect the .DLL binary,
+and how did they flag it? by looking for several XOR keys of 16 byte size 
+changing it to 9 shown in the POC .gif below shows it is now undetected again
+cheers!
+
+![alt_text](demo-poc2.gif) "Pwn!")
