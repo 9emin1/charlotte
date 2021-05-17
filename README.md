@@ -4,12 +4,17 @@
  releasing this to celebrate the birth of my newborn 
 
 ## description
+13/05/2021:
+
 1. c++ shellcode launcher, fully undetected 0/26 as of 13th May 2021.
 2. dynamic invoking of win32 api functions
 3. XOR encryption of shellcode and function names
 4. randomised XOR keys and variables per run
 5. on Kali Linux, simply 'apt-get install mingw-w64*' and thats it!
 
+17/05/2021:
+
+6. random strings length and XOR keys length 
 
 ## antiscan.me
 
